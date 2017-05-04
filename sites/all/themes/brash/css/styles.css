@@ -27,6 +27,112 @@ body {
   font-family: Helvetica, Verdana, Arial, sans-serif;
 }
 
+a, a:link {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#block-user-login {
+    font-family: "Comic Sans MS";
+    border: 2px solid green;
+    margin-right: 100px;
+    padding-left: 10px;
+}
+
+.green {
+    background-color: green;
+}
+
+.tabs__tab .tabs__tab-link {
+    font-family: "Comic Sans MS";
+    color: purple;
+    background-image: url("https://c1.staticflickr.com/1/98/236753244_fd9f6008f1.jpg");
+}
+
+a {
+    background-image: url("https://c1.staticflickr.com/1/98/236753244_fd9f6008f1.jpg");
+}
+
+/*img:hover
+{
+    transform: rotate(454543945534deg);
+    transition: all 5s ease-in-out 0s;
+}*/
+
+/*textarea:focus,
+input[type='text']:focus {
+    transform: rotate(180deg);
+}*/
+
+body {
+    background-image: url("https://c1.staticflickr.com/1/98/236753244_fd9f6008f1.jpg");
+    background-size: 250px 250px;
+    /*-webkit-animation: sit-and-spin 1s infinite;*/
+    -webkit-animation: backgroundzz .3s infinite;
+
+}
+
+img {
+    -webkit-animation: sit-and-spin 4s infinite;
+}
+
+textarea {
+    -webkit-animation: sit-and-spin 1s infinite;
+}
+
+li {
+    -webkit-animation: sit-and-spin 10s infinite;
+
+}
+
+h1, h2 {
+    -webkit-animation: sit-and-spin 30s infinite;
+}
+
+p {
+    color: white;
+    -webkit-animation: rainbow .5s infinite, sit-and-spin 7s infinite;
+    -webkit-transform-style: preserve-3d;
+    /*-webkit-transform: rotateY(100deg);*/
+}
+
+/*html:focus {
+    transform: rotate(180deg);
+}
+
+html:hover {
+    transform: rotate(-3600deg);
+    transition: all 1s;
+}*/
+
+@-webkit-keyframes sit-and-spin {
+  0%    { transform: rotateX(30deg);}
+  30%   { transform: rotateZ(200deg);}
+  60%   { transform: rotateX(200deg);}
+  80%   { transform: rotateZ(360deg);}
+  95%   { transform: rotateX(360deg);}
+
+
+}
+
+@-webkit-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}
+}
+
+@-webkit-keyframes backgroundzz {
+    0% { }
+    50% { background-image: url(https://isthatinthebible.files.wordpress.com/2015/02/the-devil-in-the-movie-legend.png?w=750&h=404);}
+}
+
+
 article,
 aside,
 details,
@@ -114,7 +220,7 @@ h2 {
   font-size: 1.5rem;
   line-height: 2.25rem;
   margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: -1rem;
 }
 
 h3 {
